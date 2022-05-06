@@ -596,7 +596,6 @@ function init() {
 	let thirdRow = document.querySelector('.third-row');
 	let fourthRow = document.querySelector('.fourth-row');
 	let fifthRow = document.querySelector('.fifth-row');
-	console.log(firstRow);
 	let firstRowButtons = '';
 	let secondRowButtons = '';
 	let thirdRowButtons = '';
@@ -674,11 +673,24 @@ let allKeys = document.querySelectorAll('.key');
 let textarea = document.querySelector('#textarea');
 
 document.onkeydown = function (event) {
+	event.preventDefault()
 	textarea.focus();
 	allKeys.forEach(function (el) {
 		el.classList.remove('active');
 	})
+	let code = event.key;
+	if (event.code == 'Tab' || event.code == 'Space') {
+		code = ' ';
+	} else if (event.code == 'ShiftLeft' || event.code == 'AltLeft' || event.code == 'AltRight' || event.code == 'ShiftRight' || event.code == 'ControlLeft' || event.code == 'ControlRight') {
+		code = '';
+	} else if (event.code == 'Enter') {
+		code = '\n';
+	} else if (event.code == 'Tab' || event.code == 'Escape' || event.code == 'F1' || event.code == 'F2' || event.code == 'F3' || event.code == 'F4' || event.code == 'F5' || event.code == 'F6' || event.code == 'F7' || event.code == 'F8' || event.code == 'F9' || event.code == 'F10' || event.code == 'F11' || event.code == 'F12' || event.code == 'ScrollLock' || event.code == 'Pause' || event.code == 'NumpadSubtract' || event.code == 'NumpadAdd' || event.code == 'Numpad1' || event.code == 'Numpad2' || event.code == 'Numpad3' || event.code == 'Numpad4' || event.code == 'Numpad5' || event.code == 'Numpad6' || event.code == 'Numpad7' || event.code == 'Numpad8' || event.code == 'Numpad9' || event.code == 'Numpad0' || event.code == 'NumpadDecimal') {
+		code = '';
+	}
+	textarea.value += code;
 	document.querySelector('.key[data="' + event.code + '"]').classList.add('active');
+
 }
 document.onkeyup = function (event) {
 	document.querySelector('.key[data="' + event.code + '"]').classList.remove('active');
@@ -691,10 +703,13 @@ allKeys.forEach(function (item) {
 			el.classList.remove('active');
 		})
 		let code = this.innerText;
-		// if (this.getAttribute('data') == 'Backspace') {
-
-		// }
-		// console.log(this.getAttribute('data'));
+		if (this.getAttribute('data') == 'Tab' || this.getAttribute('data') == 'Space') {
+			code = ' ';
+		} else if (this.getAttribute('data') == 'ShiftLeft' || this.getAttribute('data') == 'AltLeft' || this.getAttribute('data') == 'AltRight' || this.getAttribute('data') == 'ShiftRight' || this.getAttribute('data') == 'ControlLeft' || this.getAttribute('data') == 'ControlRight') {
+			code = '';
+		} else if (this.getAttribute('data') == 'Enter') {
+			code = '\n';
+		}
 		this.classList.add('active');
 		textarea.value += code;
 	})
@@ -704,3 +719,4 @@ allKeys.forEach(function (item) {
 		})
 	})
 })
+
