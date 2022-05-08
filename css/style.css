@@ -121,6 +121,7 @@ body._lock {
   padding: 5px;
   border-radius: 5px;
   background: #fff;
+  margin-bottom: 20px;
 }
 
 .keyboard__keys {
@@ -173,6 +174,14 @@ body._lock {
   transition: 0.3s;
 }
 
+.capslock-active {
+  background: #6D94C4;
+  border: 1px solid #6D94C4;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .backspace-key {
   width: 170px;
 }
@@ -195,6 +204,11 @@ body._lock {
 
 .space-key {
   width: 470px;
+}
+
+.info {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 @supports (-webkit-appearance:none){
 

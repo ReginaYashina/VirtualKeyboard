@@ -4,113 +4,126 @@ let firstRowKeys = [
 		"keyCode": 192,
 		"which": 192,
 		"code": "Backquote",
-		"location": 0,
-		"description": "Backtick / grave accent / ñ / æ / ö"
+		"keyShift": '~',
+		"keyRu": "ё",
+		"keyRuShift": "Ё"
+
 	},
 	{
 		"key": "1",
 		"keyCode": 49,
 		"which": 49,
 		"code": "Digit1",
-		"location": 0,
-		"description": "1 Key",
-		"unicode": "①"
+		"keyShift": "!",
+		"keyRu": "1",
+		"keyRuShift": "!"
 	},
 	{
 		"key": "2",
 		"keyCode": 50,
 		"which": 50,
 		"code": "Digit2",
-		"location": 0,
-		"description": "2 Key",
-		"unicode": "②"
+		"keyShift": "@",
+		"keyRu": "2",
+		"keyRuShift": "\""
 	},
 	{
 		"key": "3",
 		"keyCode": 51,
 		"which": 51,
 		"code": "Digit3",
-		"location": 0,
-		"description": "3 Key",
-		"unicode": "③"
+		"keyShift": "#",
+		"keyRu": "3",
+		"keyRuShift": "№"
 	}, {
 		"key": "4",
 		"keyCode": 52,
 		"which": 52,
 		"code": "Digit4",
-		"location": 0,
-		"description": "4 Key",
-		"unicode": "④"
-	}, {
+		"keyShift": "$",
+		"keyRu": "4",
+		"keyRuShift": "4"
+	},
+	{
 		"key": "5",
 		"keyCode": 53,
 		"which": 53,
 		"code": "Digit5",
-		"location": 0,
-		"description": "5 Key",
-		"unicode": "⑤"
-	}, {
+		"keyShift": "%",
+		"keyRu": "5",
+		"keyRuShift": "5"
+	},
+	{
 		"key": "6",
 		"keyCode": 54,
 		"which": 54,
 		"code": "Digit6",
-		"location": 0,
-		"description": "6 Key",
-		"unicode": "⑥"
-	}, {
+		"keyShift": "^",
+		"keyRu": "6",
+		"keyRuShift": "6"
+	},
+	{
 		"key": "7",
 		"keyCode": 55,
 		"which": 55,
 		"code": "Digit7",
-		"location": 0,
-		"description": "7 Key",
-		"unicode": "⑦"
-	}, {
+		"keyShift": "&",
+		"keyRu": "7",
+		"keyRuShift": "7"
+	},
+	{
 		"key": "8",
 		"keyCode": 56,
 		"which": 56,
 		"code": "Digit8",
-		"location": 0,
-		"description": "8 Key",
-		"unicode": "⑧"
-	}, {
+		"keyShift": "*",
+		"keyRu": "8",
+		"keyRuShift": "*"
+	},
+	{
 		"key": "9",
 		"keyCode": 57,
 		"which": 57,
 		"code": "Digit9",
-		"location": 0,
-		"description": "9 Key",
-		"unicode": "⑨"
-	}, {
+		"keyShift": "(",
+		"keyRu": "9",
+		"keyRuShift": "("
+	},
+	{
 		"key": "0",
 		"keyCode": 48,
 		"which": 48,
 		"code": "Digit0",
-		"location": 0,
-		"description": "0",
-		"unicode": "⓪"
-	}, {
+		"keyShift": ")",
+		"keyRu": "0",
+		"keyRuShift": ")"
+	},
+	{
 		"key": "-",
 		"keyCode": 109,
 		"which": 109,
 		"code": "Minus",
-		"location": 3,
-		"description": "subtract"
-	}, {
+		"keyShift": "_",
+		"keyRu": "-",
+		"keyRuShift": "_"
+	},
+	{
 		"key": "=",
 		"keyCode": 61,
 		"which": 61,
 		"code": "Equal",
-		"location": 0,
-		"description": "equals (firefox)"
-	}, {
+		"keyShift": "+",
+		"keyRu": "=",
+		"keyRuShift": "+"
+	},
+	{
 		"key": "Backspace",
 		"keyCode": 8,
 		"which": 8,
 		"code": "Backspace",
-		"location": 0,
-		"description": "backspace / delete",
-		"unicode": "⌫"
+		"keyShift": "Backspace",
+		"keyRu": "Backspace",
+		"keyRuShift": "Backspace"
 	}
 ];
 let secondRowKeys = [{
@@ -118,123 +131,135 @@ let secondRowKeys = [{
 	"keyCode": 9,
 	"which": 9,
 	"code": "Tab",
-	"location": 0,
-	"description": "tab",
-	"unicode": "↹"
-}, {
+	"keyShift": "Tab",
+	"keyRu": "Tab",
+	"keyRuShift": "Tab"
+},
+{
 	"key": "q",
 	"keyCode": 81,
 	"which": 81,
 	"code": "KeyQ",
-	"location": 0,
-	"description": "q"
-}, {
+	"keyShift": "Q",
+	"keyRu": "й",
+	"keyRuShift": "Й"
+},
+{
 	"key": "w",
 	"keyCode": 87,
 	"which": 87,
 	"code": "KeyW",
-	"location": 0,
-	"description": "w"
-}, {
+	"keyShift": "W",
+	"keyRu": "ц",
+	"keyRuShift": "Ц"
+},
+{
 	"key": "e",
 	"keyCode": 69,
 	"which": 69,
 	"code": "KeyE",
-	"location": 0,
-	"description": "e"
-}, {
+	"keyShift": "E",
+	"keyRu": "у",
+	"keyRuShift": "У"
+},
+{
 	"key": "r",
 	"keyCode": 82,
 	"which": 82,
 	"code": "KeyR",
-	"location": 0,
-	"description": "r"
-}, {
+	"keyShift": "R",
+	"keyRu": "к",
+	"keyRuShift": "К"
+},
+{
 	"key": "t",
 	"keyCode": 84,
 	"which": 84,
 	"code": "KeyT",
-	"location": 0,
-	"description": "t"
+	"keyShift": "T",
+	"keyRu": "е",
+	"keyRuShift": "Е"
 },
 {
 	"key": "y",
 	"keyCode": 89,
 	"which": 89,
 	"code": "KeyY",
-	"location": 0,
-	"description": "y"
+	"keyShift": "Y",
+	"keyRu": "н",
+	"keyRuShift": "Н"
 },
 {
 	"key": "u",
 	"keyCode": 85,
 	"which": 85,
 	"code": "KeyU",
-	"location": 0,
-	"description": "u"
+	"keyShift": "U",
+	"keyRu": "г",
+	"keyRuShift": "Г"
 },
 {
 	"key": "i",
 	"keyCode": 73,
 	"which": 73,
 	"code": "KeyI",
-	"location": 0,
-	"description": "i"
+	"keyShift": "I",
+	"keyRu": "ш",
+	"keyRuShift": "Ш"
 },
 {
 	"key": "o",
 	"keyCode": 79,
 	"which": 79,
 	"code": "KeyO",
-	"location": 0,
-	"description": "o"
+	"keyShift": "O",
+	"keyRu": "щ",
+	"keyRuShift": "Щ"
 },
 {
 	"key": "p",
 	"keyCode": 80,
 	"which": 80,
 	"code": "KeyP",
-	"location": 0,
-	"description": "p"
-}, {
+	"keyShift": "P",
+	"keyRu": "з",
+	"keyRuShift": "З"
+},
+{
 	"key": "[",
 	"keyCode": 160,
 	"which": 160,
 	"code": "BracketLeft",
-	"location": 0,
-	"altKey": false,
-	"ctrlKey": false,
-	"metaKey": false,
-	"shiftKey": false,
-	"description": "^"
-}, {
+	"keyShift": "{",
+	"keyRu": "х",
+	"keyRuShift": "Х"
+},
+{
 	"key": "]",
 	"keyCode": 221,
 	"which": 221,
 	"code": "BracketRight",
-	"location": 0,
-	"description": "close bracket / å"
+	"keyShift": "}",
+	"keyRu": "ъ",
+	"keyRuShift": "Ъ"
 },
 {
 	"key": "\\",
 	"keyCode": 220,
 	"which": 220,
 	"code": "Backslash",
-	"location": 0,
-	"description": "back slash"
+	"keyShift": "|",
+	"keyRu": "\\",
+	"keyRuShift": "/"
 },
 {
 	"key": "Delete",
 	"keyCode": 46,
 	"which": 46,
 	"code": "Delete",
-	"location": 3,
-	"altKey": false,
-	"ctrlKey": false,
-	"metaKey": false,
-	"shiftKey": false,
-	"description": "delete",
-	"unicode": "⌦"
+	"keyShift": "Delete",
+	"keyRu": "Delete",
+	"keyRuShift": "Delete"
 }
 ]
 let thirdRowKeys = [
@@ -243,111 +268,114 @@ let thirdRowKeys = [
 		"keyCode": 20,
 		"which": 20,
 		"code": "CapsLock",
-		"location": 0,
-		"description": "caps lock",
-		"unicode": "⇪"
+		"keyShift": "CapsLock",
+		"keyRu": "CapsLock",
+		"keyRuShift": "CapsLock"
 	},
 	{
 		"key": "a",
 		"keyCode": 65,
 		"which": 65,
 		"code": "KeyA",
-		"location": 0,
-		"description": "a"
+		"keyShift": "A",
+		"keyRu": "ф",
+		"keyRuShift": "Ф"
 	},
 	{
 		"key": "s",
 		"keyCode": 83,
 		"which": 83,
 		"code": "KeyS",
-		"location": 0,
-		"description": "s"
+		"keyShift": "S",
+		"keyRu": "ы",
+		"keyRuShift": "Ы"
 	},
 	{
 		"key": "d",
 		"keyCode": 68,
 		"which": 68,
 		"code": "KeyD",
-		"location": 0,
-		"description": "d"
+		"keyShift": "D",
+		"keyRu": "в",
+		"keyRuShift": "В"
 	},
 	{
 		"key": "f",
 		"keyCode": 70,
 		"which": 70,
 		"code": "KeyF",
-		"location": 0,
-		"description": "f"
+		"keyShift": "F",
+		"keyRu": "а",
+		"keyRuShift": "А"
 	},
 	{
 		"key": "g",
 		"keyCode": 71,
 		"which": 71,
 		"code": "KeyG",
-		"location": 0,
-		"description": "g"
+		"keyShift": "G",
+		"keyRu": "п",
+		"keyRuShift": "П"
 	},
 	{
 		"key": "h",
 		"keyCode": 72,
 		"which": 72,
 		"code": "KeyH",
-		"location": 0,
-		"description": "h"
+		"keyShift": "H",
+		"keyRu": "р",
+		"keyRuShift": "Р"
 	},
 	{
 		"key": "j",
 		"keyCode": 74,
 		"which": 74,
 		"code": "KeyJ",
-		"location": 0,
-		"description": "j"
+		"keyShift": "J",
+		"keyRu": "о",
+		"keyRuShift": "О"
 	},
 	{
 		"key": "k",
 		"keyCode": 75,
 		"which": 75,
 		"code": "KeyK",
-		"location": 0,
-		"altKey": true,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": false,
-		"description": "k"
+		"keyShift": "K",
+		"keyRu": "л",
+		"keyRuShift": "Л"
 	},
 	{
 		"key": "l",
 		"keyCode": 76,
 		"which": 76,
 		"code": "KeyL",
-		"location": 0,
-		"altKey": true,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": false,
-		"description": "l"
+		"keyShift": "L",
+		"keyRu": "д",
+		"keyRuShift": "Д"
 	}, {
 		"key": ";",
 		"keyCode": 59,
 		"which": 59,
 		"code": "Semicolon",
-		"location": 0,
-		"description": "semicolon (firefox), equals"
+		"keyShift": ":",
+		"keyRu": "ж",
+		"keyRuShift": "Ж"
 	}, {
 		"key": "'",
 		"keyCode": 222,
 		"which": 222,
 		"code": "Quote",
-		"location": 0,
-		"description": "single quote / ø / ä"
+		"keyShift": "\"",
+		"keyRu": "э",
+		"keyRuShift": "Э"
 	}, {
 		"key": "Enter",
 		"keyCode": 13,
 		"which": 13,
 		"code": "Enter",
-		"location": 0,
-		"description": "Enter / Return",
-		"unicode": "↵"
+		"keyShift": "Enter",
+		"keyRu": "Enter",
+		"keyRuShift": "Enter"
 	}
 ]
 let fourthRowKeys = [
@@ -356,122 +384,125 @@ let fourthRowKeys = [
 		"keyCode": 16,
 		"which": 16,
 		"code": "ShiftLeft",
-		"location": 1,
-		"description": "shift",
-		"unicode": "⇧"
+		"keyShift": "Shift",
+		"keyRu": "Shift",
+		"keyRuShift": "Shift"
 	},
 	{
 		"key": "\\",
 		"keyCode": 220,
 		"which": 220,
 		"code": "IntlBackslash",
-		"location": 0,
-		"description": "back slash"
+		"keyShift": "|",
+		"keyRu": "\\",
+		"keyRuShift": "/"
 	},
 	{
 		"key": "z",
 		"keyCode": 90,
 		"which": 90,
 		"code": "KeyZ",
-		"location": 0,
-		"description": "z"
+		"keyShift": "Z",
+		"keyRu": "я",
+		"keyRuShift": "Я"
 	},
 	{
 		"key": "x",
 		"keyCode": 88,
 		"which": 88,
 		"code": "KeyX",
-		"location": 0,
-		"description": "x"
+		"keyShift": "X",
+		"keyRu": "ч",
+		"keyRuShift": "Ч"
 	},
 	{
 		"key": "c",
 		"keyCode": 67,
 		"which": 67,
 		"code": "KeyC",
-		"location": 0,
-		"description": "c"
+		"keyShift": "C",
+		"keyRu": "с",
+		"keyRuShift": "С"
 	},
 	{
 		"key": "v",
 		"keyCode": 86,
 		"which": 86,
 		"code": "KeyV",
-		"location": 0,
-		"description": "v"
+		"keyShift": "V",
+		"keyRu": "м",
+		"keyRuShift": "М"
 	},
 	{
 		"key": "b",
 		"keyCode": 66,
 		"which": 66,
-		"code": "KeyB",
-		"location": 0,
-		"description": "b"
+		"keyShift": "B",
+		"keyRu": "и",
+		"keyRuShift": "И"
 	},
 	{
 		"key": "n",
 		"keyCode": 78,
 		"which": 78,
 		"code": "KeyN",
-		"location": 0,
-		"description": "n"
+		"keyShift": "N",
+		"keyRu": "т",
+		"keyRuShift": "Т"
 	},
 	{
 		"key": "m",
 		"keyCode": 77,
 		"which": 77,
 		"code": "KeyM",
-		"location": 0,
-		"description": "m"
+		"keyShift": "M",
+		"keyRu": "ь",
+		"keyRuShift": "Ь"
 	},
 	{
 		"key": ",",
 		"keyCode": 108,
 		"which": 108,
 		"code": "Comma",
-		"location": 3,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": false,
-		"shiftKey": false,
-		"description": "numpad period (firefox)"
+		"keyShift": "<",
+		"keyRu": "б",
+		"keyRuShift": "Б"
 	},
 	{
 		"key": ".",
 		"keyCode": 190,
 		"which": 190,
 		"code": "Period",
-		"location": 0,
-		"description": "period"
+		"keyShift": ">",
+		"keyRu": "ю",
+		"keyRuShift": "Ю"
 	},
 	{
 		"key": "/",
 		"keyCode": 191,
 		"which": 191,
 		"code": "Slash",
-		"location": 0,
-		"description": "forward slash / ç"
+		"keyShift": "?",
+		"keyRu": ".",
+		"keyRuShift": ","
 	},
 	{
 		"key": "ArrowUp",
 		"keyCode": 38,
 		"which": 38,
 		"code": "ArrowUp",
-		"location": 0,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": false,
-		"shiftKey": false,
-		"repeat": false
+		"keyShift": "ArrowUp",
+		"keyRu": "ArrowUp",
+		"keyRuShift": "ArrowUp"
 	},
 	{
 		"key": "Shift",
 		"keyCode": 16,
 		"which": 16,
 		"code": "ShiftRight",
-		"location": 1,
-		"description": "shift",
-		"unicode": "⇧"
+		"keyShift": "Shift",
+		"keyRu": "Shift",
+		"keyRuShift": "Shift"
 	}
 ]
 let fifthRowKeys = [
@@ -480,117 +511,91 @@ let fifthRowKeys = [
 		"keyCode": 17,
 		"which": 17,
 		"code": "ControlLeft",
-		"location": 1,
-		"altKey": true,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": true,
-		"description": "ctrl",
-		"unicode": "^"
+		"keyShift": "Control",
+		"keyRu": "Control",
+		"keyRuShift": "Control"
 	},
 	{
 		"key": "Meta",
 		"keyCode": 91,
 		"which": 91,
 		"code": "MetaLeft",
-		"location": 1,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": false,
-		"description": "Windows Key / Left ⌘ / Chromebook Search key",
-		"unicode": "⌘ ⊞"
+		"keyShift": "Meta",
+		"keyRu": "Meta",
+		"keyRuShift": "Meta"
 	},
 	{
 		"key": "Alt",
 		"keyCode": 18,
 		"which": 18,
 		"code": "AltLeft",
-		"location": 1,
-		"altKey": true,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": false,
-		"description": "Alt / Option",
-		"unicode": "⎇ / ⌥"
+		"keyShift": "Alt",
+		"keyRu": "Alt",
+		"keyRuShift": "Alt"
 	},
 	{
 		"key": " ",
 		"keyCode": 32,
 		"which": 32,
 		"code": "Space",
-		"location": 0,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": false,
-		"shiftKey": false,
-		"repeat": false
+		"keyShift": " ",
+		"keyRu": " ",
+		"keyRuShift": " "
 	},
 	{
 		"key": "Alt",
 		"keyCode": 18,
 		"which": 18,
 		"code": "AltRight",
-		"location": 1,
-		"altKey": true,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": false,
-		"description": "Alt / Option",
-		"unicode": "⎇ / ⌥"
+		"keyShift": "Alt",
+		"keyRu": "Alt",
+		"keyRuShift": "Alt"
 	},
 	{
 		"key": "ArrowLeft",
 		"keyCode": 37,
 		"which": 37,
 		"code": "ArrowLeft",
-		"location": 0,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": false,
-		"shiftKey": false,
-		"repeat": false
+		"keyShift": "ArrowLeft",
+		"keyRu": "ArrowLeft",
+		"keyRuShift": "ArrowLeft"
 	},
 	{
 		"key": "ArrowDown",
 		"keyCode": 40,
 		"which": 40,
 		"code": "ArrowDown",
-		"location": 0,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": false,
-		"shiftKey": false,
-		"repeat": false
+		"keyShift": "ArrowDown",
+		"keyRu": "ArrowDown",
+		"keyRuShift": "ArrowDown"
 	},
 	{
 		"key": "ArrowRight",
 		"keyCode": 39,
 		"which": 39,
 		"code": "ArrowRight",
-		"location": 0,
-		"altKey": false,
-		"ctrlKey": false,
-		"metaKey": false,
-		"shiftKey": false,
-		"repeat": false
+		"keyShift": "ArrowRight",
+		"keyRu": "ArrowRight",
+		"keyRuShift": "ArrowRight"
 	},
 	{
 		"key": "Control",
 		"keyCode": 17,
 		"which": 17,
 		"code": "ControlRight",
-		"location": 1,
-		"altKey": true,
-		"ctrlKey": false,
-		"metaKey": true,
-		"shiftKey": true,
-		"description": "ctrl",
-		"unicode": "^"
+		"keyShift": "Control ",
+		"keyRu": "Control ",
+		"keyRuShift": "Control"
 	}
 ]
+let allRowsKeys = [].concat(firstRowKeys, secondRowKeys, thirdRowKeys, fourthRowKeys, fifthRowKeys);
 function init() {
-	document.querySelector('body').innerHTML = '<div class="_container wrapper"><textarea name="textarea" class="textarea" id="textarea" rows="20"></textarea><div id="keyboard" class="keyboard"><div class="keyboard__keys"><div class="row first-row"></div><div class="row second-row"></div><div class="row third-row"></div><div class="row fourth-row"></div><div class="row fifth-row"></div></div></div></div>'
+	document.querySelector('body').innerHTML = '<div class="_container wrapper"><textarea name="textarea" class="textarea" id="textarea" rows="20"></textarea><div id="keyboard" class="keyboard"><div class="keyboard__keys"><div class="row first-row"></div><div class="row second-row"></div><div class="row third-row"></div><div class="row fourth-row"></div><div class="row fifth-row"></div></div></div><p class = "info">OC Windows</p><p class = "info">ctrl+alt (слева) - переключение языка</p></div>'
+}
+function initEn() {
+	document.querySelector('body').classList.add('initEn');
+	document.querySelector('body').classList.remove('initEnShift', 'initRu', 'initRuShift');
+	localStorage.setItem('lang', 'en');
 	let firstRow = document.querySelector('.first-row');
 	let secondRow = document.querySelector('.second-row');
 	let thirdRow = document.querySelector('.third-row');
@@ -667,56 +672,402 @@ function init() {
 	thirdRow.innerHTML = thirdRowButtons;
 	fourthRow.innerHTML = fourthRowButtons;
 	fifthRow.innerHTML = fifthRowButtons;
+	print();
 }
-init();
-let allKeys = document.querySelectorAll('.key');
-let textarea = document.querySelector('#textarea');
+function initEnShift() {
+	document.querySelector('body').classList.add('initEnShift');
+	document.querySelector('body').classList.remove('initEn', 'initRu', 'initRuShift');
+	localStorage.setItem('lang', 'enUp');
+	let firstRow = document.querySelector('.first-row');
+	let secondRow = document.querySelector('.second-row');
+	let thirdRow = document.querySelector('.third-row');
+	let fourthRow = document.querySelector('.fourth-row');
+	let fifthRow = document.querySelector('.fifth-row');
+	let firstRowButtons = '';
+	let secondRowButtons = '';
+	let thirdRowButtons = '';
+	let fourthRowButtons = '';
+	let fifthRowButtons = '';
+	for (let i = 0; i < firstRowKeys.length; i++) {
 
-document.onkeydown = function (event) {
-	event.preventDefault()
-	textarea.focus();
-	allKeys.forEach(function (el) {
-		el.classList.remove('active');
-	})
-	let code = event.key;
-	if (event.code == 'Tab' || event.code == 'Space') {
-		code = ' ';
-	} else if (event.code == 'ShiftLeft' || event.code == 'AltLeft' || event.code == 'AltRight' || event.code == 'ShiftRight' || event.code == 'ControlLeft' || event.code == 'ControlRight') {
-		code = '';
-	} else if (event.code == 'Enter') {
-		code = '\n';
-	} else if (event.code == 'Tab' || event.code == 'Escape' || event.code == 'F1' || event.code == 'F2' || event.code == 'F3' || event.code == 'F4' || event.code == 'F5' || event.code == 'F6' || event.code == 'F7' || event.code == 'F8' || event.code == 'F9' || event.code == 'F10' || event.code == 'F11' || event.code == 'F12' || event.code == 'ScrollLock' || event.code == 'Pause' || event.code == 'NumpadSubtract' || event.code == 'NumpadAdd' || event.code == 'Numpad1' || event.code == 'Numpad2' || event.code == 'Numpad3' || event.code == 'Numpad4' || event.code == 'Numpad5' || event.code == 'Numpad6' || event.code == 'Numpad7' || event.code == 'Numpad8' || event.code == 'Numpad9' || event.code == 'Numpad0' || event.code == 'NumpadDecimal') {
-		code = '';
+		if (firstRowKeys[i].key == 'Backspace') {
+			firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyShift + '</div>';
+		} else {
+			firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyShift + '</div>';
+		}
 	}
-	textarea.value += code;
-	document.querySelector('.key[data="' + event.code + '"]').classList.add('active');
+	for (let i = 0; i < secondRowKeys.length; i++) {
 
+		if (secondRowKeys[i].key == 'Tab') {
+			secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyShift + '</div>';
+		} else if (secondRowKeys[i].key == '\\') {
+			secondRowButtons += '<div class = "key slash-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyShift + '</div>';
+		} else if (secondRowKeys[i].key == 'Delete') {
+			secondRowButtons += '<div class = "key delete-key" data = "' + secondRowKeys[i].code + '">Del</div>';
+		} else {
+			secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyShift + '</div>';
+		}
+	}
+	for (let i = 0; i < thirdRowKeys.length; i++) {
+
+		if (thirdRowKeys[i].key == 'CapsLock') {
+			thirdRowButtons += '<div class = "key capslock-key capslock-active" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyShift + '</div>';
+		} else if (thirdRowKeys[i].key == 'Enter') {
+			thirdRowButtons += '<div class = "key enter-key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyShift + '</div>';
+		} else {
+			thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyShift + '</div>';
+		}
+	}
+	for (let i = 0; i < fourthRowKeys.length; i++) {
+
+		if (fourthRowKeys[i].key == 'Shift') {
+			fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyShift + '</div>';
+		} else if (fourthRowKeys[i].key == 'ArrowUp') {
+			fourthRowButtons += '<div class = "key arrow-up-key" data = "' + fourthRowKeys[i].code + '">&#9650;</div>';
+		} else {
+			fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyShift + '</div>';
+		}
+	}
+	for (let i = 0; i < fifthRowKeys.length; i++) {
+
+		if (fifthRowKeys[i].key == 'Control') {
+			fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
+		} else if (fifthRowKeys[i].key == 'Meta') {
+			fifthRowButtons += '<div class = "key win-key" data = "' + fifthRowKeys[i].code + '">Win</div>';
+		}
+		else if (fifthRowKeys[i].key == 'Alt') {
+			fifthRowButtons += '<div class = "key alt-key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].key + '</div>';
+		} else if (fifthRowKeys[i].key == ' ') {
+			fifthRowButtons += '<div class = "key space-key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].key + '</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowLeft') {
+			fifthRowButtons += '<div class = "key arrow-left-key" data = "' + fifthRowKeys[i].code + '">&#9668;</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowDown') {
+			fifthRowButtons += '<div class = "key arrow-down-key" data = "' + fifthRowKeys[i].code + '">&#9660;</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowRight') {
+			fifthRowButtons += '<div class = "key arrow-right-key" data = "' + fifthRowKeys[i].code + '">&#9658;</div>';
+		} else {
+			fifthRowButtons += '<div class = "key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyShift + '</div>';
+		}
+	}
+	firstRow.innerHTML = firstRowButtons;
+	secondRow.innerHTML = secondRowButtons;
+	thirdRow.innerHTML = thirdRowButtons;
+	fourthRow.innerHTML = fourthRowButtons;
+	fifthRow.innerHTML = fifthRowButtons;
+	print();
 }
-document.onkeyup = function (event) {
-	document.querySelector('.key[data="' + event.code + '"]').classList.remove('active');
+function initRu() {
+	document.querySelector('body').classList.add('initRu');
+	document.querySelector('body').classList.remove('initEn', 'initEnShift', 'initRuShift');
+	localStorage.setItem('lang', 'ru');
+	let firstRow = document.querySelector('.first-row');
+	let secondRow = document.querySelector('.second-row');
+	let thirdRow = document.querySelector('.third-row');
+	let fourthRow = document.querySelector('.fourth-row');
+	let fifthRow = document.querySelector('.fifth-row');
+	let firstRowButtons = '';
+	let secondRowButtons = '';
+	let thirdRowButtons = '';
+	let fourthRowButtons = '';
+	let fifthRowButtons = '';
+	for (let i = 0; i < firstRowKeys.length; i++) {
+
+		if (firstRowKeys[i].key == 'Backspace') {
+			firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRu + '</div>';
+		} else {
+			firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRu + '</div>';
+		}
+	}
+	for (let i = 0; i < secondRowKeys.length; i++) {
+
+		if (secondRowKeys[i].key == 'Tab') {
+			secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRu + '</div>';
+		} else if (secondRowKeys[i].key == '\\') {
+			secondRowButtons += '<div class = "key slash-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRu + '</div>';
+		} else if (secondRowKeys[i].key == 'Delete') {
+			secondRowButtons += '<div class = "key delete-key" data = "' + secondRowKeys[i].code + '">Del</div>';
+		} else {
+			secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRu + '</div>';
+		}
+	}
+	for (let i = 0; i < thirdRowKeys.length; i++) {
+
+		if (thirdRowKeys[i].key == 'CapsLock') {
+			thirdRowButtons += '<div class = "key capslock-key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRu + '</div>';
+		} else if (thirdRowKeys[i].key == 'Enter') {
+			thirdRowButtons += '<div class = "key enter-key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRu + '</div>';
+		} else {
+			thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRu + '</div>';
+		}
+	}
+	for (let i = 0; i < fourthRowKeys.length; i++) {
+
+		if (fourthRowKeys[i].key == 'Shift') {
+			fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRu + '</div>';
+		} else if (fourthRowKeys[i].key == 'ArrowUp') {
+			fourthRowButtons += '<div class = "key arrow-up-key" data = "' + fourthRowKeys[i].code + '">&#9650;</div>';
+		} else {
+			fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRu + '</div>';
+		}
+	}
+	for (let i = 0; i < fifthRowKeys.length; i++) {
+
+		if (fifthRowKeys[i].key == 'Control') {
+			fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
+		} else if (fifthRowKeys[i].key == 'Meta') {
+			fifthRowButtons += '<div class = "key win-key" data = "' + fifthRowKeys[i].code + '">Win</div>';
+		}
+		else if (fifthRowKeys[i].key == 'Alt') {
+			fifthRowButtons += '<div class = "key alt-key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyRu + '</div>';
+		} else if (fifthRowKeys[i].key == ' ') {
+			fifthRowButtons += '<div class = "key space-key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyRu + '</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowLeft') {
+			fifthRowButtons += '<div class = "key arrow-left-key" data = "' + fifthRowKeys[i].code + '">&#9668;</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowDown') {
+			fifthRowButtons += '<div class = "key arrow-down-key" data = "' + fifthRowKeys[i].code + '">&#9660;</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowRight') {
+			fifthRowButtons += '<div class = "key arrow-right-key" data = "' + fifthRowKeys[i].code + '">&#9658;</div>';
+		} else {
+			fifthRowButtons += '<div class = "key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyRu + '</div>';
+		}
+	}
+	firstRow.innerHTML = firstRowButtons;
+	secondRow.innerHTML = secondRowButtons;
+	thirdRow.innerHTML = thirdRowButtons;
+	fourthRow.innerHTML = fourthRowButtons;
+	fifthRow.innerHTML = fifthRowButtons;
+	print();
+}
+function initRuShift() {
+	document.querySelector('body').classList.add('initRuShift');
+	document.querySelector('body').classList.remove('initEn', 'initEnShift', 'initRu');
+	localStorage.setItem('lang', 'ruUp');
+	let firstRow = document.querySelector('.first-row');
+	let secondRow = document.querySelector('.second-row');
+	let thirdRow = document.querySelector('.third-row');
+	let fourthRow = document.querySelector('.fourth-row');
+	let fifthRow = document.querySelector('.fifth-row');
+	let firstRowButtons = '';
+	let secondRowButtons = '';
+	let thirdRowButtons = '';
+	let fourthRowButtons = '';
+	let fifthRowButtons = '';
+	for (let i = 0; i < firstRowKeys.length; i++) {
+
+		if (firstRowKeys[i].key == 'Backspace') {
+			firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRuShift + '</div>';
+		} else {
+			firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRuShift + '</div>';
+		}
+	}
+	for (let i = 0; i < secondRowKeys.length; i++) {
+
+		if (secondRowKeys[i].key == 'Tab') {
+			secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRuShift + '</div>';
+		} else if (secondRowKeys[i].key == '\\') {
+			secondRowButtons += '<div class = "key slash-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRuShift + '</div>';
+		} else if (secondRowKeys[i].key == 'Delete') {
+			secondRowButtons += '<div class = "key delete-key" data = "' + secondRowKeys[i].code + '">Del</div>';
+		} else {
+			secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRuShift + '</div>';
+		}
+	}
+	for (let i = 0; i < thirdRowKeys.length; i++) {
+
+		if (thirdRowKeys[i].key == 'CapsLock') {
+			thirdRowButtons += '<div class = "key capslock-key capslock-active" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRuShift + '</div>';
+		} else if (thirdRowKeys[i].key == 'Enter') {
+			thirdRowButtons += '<div class = "key enter-key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRuShift + '</div>';
+		} else {
+			thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRuShift + '</div>';
+		}
+	}
+	for (let i = 0; i < fourthRowKeys.length; i++) {
+
+		if (fourthRowKeys[i].key == 'Shift') {
+			fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRuShift + '</div>';
+		} else if (fourthRowKeys[i].key == 'ArrowUp') {
+			fourthRowButtons += '<div class = "key arrow-up-key" data = "' + fourthRowKeys[i].code + '">&#9650;</div>';
+		} else {
+			fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRuShift + '</div>';
+		}
+	}
+	for (let i = 0; i < fifthRowKeys.length; i++) {
+
+		if (fifthRowKeys[i].key == 'Control') {
+			fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
+		} else if (fifthRowKeys[i].key == 'Meta') {
+			fifthRowButtons += '<div class = "key win-key" data = "' + fifthRowKeys[i].code + '">Win</div>';
+		}
+		else if (fifthRowKeys[i].key == 'Alt') {
+			fifthRowButtons += '<div class = "key alt-key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyRuShift + '</div>';
+		} else if (fifthRowKeys[i].key == ' ') {
+			fifthRowButtons += '<div class = "key space-key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyRuShift + '</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowLeft') {
+			fifthRowButtons += '<div class = "key arrow-left-key" data = "' + fifthRowKeys[i].code + '">&#9668;</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowDown') {
+			fifthRowButtons += '<div class = "key arrow-down-key" data = "' + fifthRowKeys[i].code + '">&#9660;</div>';
+		} else if (fifthRowKeys[i].key == 'ArrowRight') {
+			fifthRowButtons += '<div class = "key arrow-right-key" data = "' + fifthRowKeys[i].code + '">&#9658;</div>';
+		} else {
+			fifthRowButtons += '<div class = "key" data = "' + fifthRowKeys[i].code + '">' + fifthRowKeys[i].keyRuShift + '</div>';
+		}
+	}
+	firstRow.innerHTML = firstRowButtons;
+	secondRow.innerHTML = secondRowButtons;
+	thirdRow.innerHTML = thirdRowButtons;
+	fourthRow.innerHTML = fourthRowButtons;
+	fifthRow.innerHTML = fifthRowButtons;
+	print();
+}
+let lang = localStorage.getItem('lang');
+console.log(lang);
+init();
+initEn();
+if (lang == 'en') {
+	initEn();
+} else if (lang == 'enUp') {
+	initEnShift()
+}
+else if (lang == 'ru') {
+	initRu()
+}
+else if (lang == 'ruUp') {
+	initRuShift()
 }
 
-allKeys.forEach(function (item) {
-	item.addEventListener('mousedown', function () {
+// initEnShift();
+// initRu();
+// initRuShift();
+function print() {
+	let allKeys = document.querySelectorAll('.key');
+	let textarea = document.querySelector('#textarea');
+	document.onkeydown = function (event) {
+		console.log(event);
+		event.preventDefault()
 		textarea.focus();
 		allKeys.forEach(function (el) {
 			el.classList.remove('active');
 		})
-		let code = this.innerText;
-		if (this.getAttribute('data') == 'Tab' || this.getAttribute('data') == 'Space') {
+		let code = event.key;
+		if (event.code == 'Tab' || event.code == 'Space') {
 			code = ' ';
-		} else if (this.getAttribute('data') == 'ShiftLeft' || this.getAttribute('data') == 'AltLeft' || this.getAttribute('data') == 'AltRight' || this.getAttribute('data') == 'ShiftRight' || this.getAttribute('data') == 'ControlLeft' || this.getAttribute('data') == 'ControlRight') {
+		} else if (event.code == 'AltLeft' || event.code == 'AltRight' || event.code == 'ControlLeft' || event.code == 'ControlRight') {
 			code = '';
-		} else if (this.getAttribute('data') == 'Enter') {
+		} else if (event.code == 'Enter') {
 			code = '\n';
+		} else if (event.code == 'Tab' || event.code == 'Escape' || event.code == 'MetaLeft' || event.code == 'F1' || event.code == 'F2' || event.code == 'F3' || event.code == 'F4' || event.code == 'F5' || event.code == 'F6' || event.code == 'F7' || event.code == 'F8' || event.code == 'F9' || event.code == 'F10' || event.code == 'F11' || event.code == 'F12' || event.code == 'ScrollLock' || event.code == 'Pause' || event.code == 'NumpadSubtract' || event.code == 'NumpadAdd' || event.code == 'Numpad1' || event.code == 'Numpad2' || event.code == 'Numpad3' || event.code == 'Numpad4' || event.code == 'Numpad5' || event.code == 'Numpad6' || event.code == 'Numpad7' || event.code == 'Numpad8' || event.code == 'Numpad9' || event.code == 'Numpad0' || event.code == 'NumpadDecimal') {
+			code = '';
+		} else if (event.code == 'ArrowUp') {
+			code = '▲';
+		} else if (event.code == 'ArrowLeft') {
+			code = '◄';
+		} else if (event.code == 'ArrowDown') {
+			code = '▼';
+		} else if (event.code == 'ArrowRight') {
+			code = '►';
+		} else if (event.code == 'Backspace' || event.code == 'Delete') {
+			let lastSymbolDel = textarea.value.slice(0, -1);
+			code = '';
+			textarea.value = lastSymbolDel;
+		} else if (event.code == 'ShiftLeft' || event.code == 'ShiftRight' && document.querySelector('body').classList.contains('initEn')) {
+			initEnShift()
+			code = '';
+		} else if (event.code == 'ShiftLeft' || event.code == 'ShiftRight' && document.querySelector('body').classList.contains('initRu')) {
+			initRuShift()
+			code = '';
+		} else if (event.code == 'CapsLock' && document.querySelector('body').classList.contains('initEn')) {
+			initEnShift()
+			code = '';
+		} else if (event.code == 'CapsLock' && document.querySelector('body').classList.contains('initEnShift')) {
+			initEn()
+			code = '';
+		} else if (event.code == 'CapsLock' && document.querySelector('body').classList.contains('initRu')) {
+			initRuShift()
+			code = '';
+		} else if (event.code == 'CapsLock' && document.querySelector('body').classList.contains('initRuShift')) {
+			initRu()
+			code = '';
 		}
-		this.classList.add('active');
 		textarea.value += code;
-	})
-	item.addEventListener('mouseup', function () {
-		allKeys.forEach(function (el) {
-			el.classList.remove('active');
-		})
-	})
-})
+		document.querySelector('.key[data="' + event.code + '"]').classList.add('active');
 
+	}
+	document.onkeyup = function (event) {
+		document.querySelector('.key[data="' + event.code + '"]').classList.remove('active');
+		if (event.code == 'ShiftLeft' || event.code == 'ShiftRight' && document.querySelector('body').classList.contains('initEnShift')) {
+			initEn();
+		} else if (event.code == 'ShiftLeft' || event.code == 'ShiftRight' && document.querySelector('body').classList.contains('initRuShift')) {
+			initRu();
+		}
+	}
+	allKeys.forEach(function (item) {
+		item.addEventListener('mousedown', function () {
+			textarea.focus();
+			textarea.selectionStart = textarea.selectionEnd;
+			allKeys.forEach(function (el) {
+				el.classList.remove('active');
+			})
+			let code = this.innerText;
+			if (this.getAttribute('data') == 'Tab' || this.getAttribute('data') == 'Space') {
+				code = ' ';
+			} else if (this.getAttribute('data') == 'AltLeft' || this.getAttribute('data') == 'AltRight' || this.getAttribute('data') == 'ControlLeft' || this.getAttribute('data') == 'ControlRight') {
+				code = '';
+			} else if (this.getAttribute('data') == 'Enter') {
+				code = '\n';
+			} else if (this.getAttribute('data') == 'Backspace' || this.getAttribute('data') == 'Delete') {
+				let lastSymbolDel = textarea.value.slice(0, -1);
+				code = '';
+				textarea.value = lastSymbolDel;
+			} else if (this.getAttribute('data') == 'MetaLeft') {
+				code = '';
+			} else if (this.getAttribute('data') == 'ShiftLeft' || this.getAttribute('data') == 'ShiftRight' && document.querySelector('body').classList.contains('initEn')) {
+				initEnShift();
+				code = '';
+			} else if (this.getAttribute('data') == 'ShiftLeft' || this.getAttribute('data') == 'ShiftRight' && document.querySelector('body').classList.contains('initRu')) {
+				initRuShift();
+				code = '';
+			} else if (this.getAttribute('data') == 'CapsLock' && document.querySelector('body').classList.contains('initEn')) {
+				initEnShift()
+				code = '';
+			} else if (this.getAttribute('data') == 'CapsLock' && document.querySelector('body').classList.contains('initEnShift')) {
+				initEn()
+				code = '';
+			} else if (this.getAttribute('data') == 'CapsLock' && document.querySelector('body').classList.contains('initRu')) {
+				initRuShift()
+				code = '';
+			} else if (this.getAttribute('data') == 'CapsLock' && document.querySelector('body').classList.contains('initRuShift')) {
+				initRu()
+				code = '';
+			}
+			this.classList.add('active');
+
+			textarea.value += code;
+		})
+		item.addEventListener('mouseup', function () {
+			allKeys.forEach(function (el) {
+				el.classList.remove('active');
+			})
+			if (this.getAttribute('data') == 'ShiftLeft' || this.getAttribute('data') == 'ShiftRight' && document.querySelector('body').classList.contains('initEnShift')) {
+				initEn();
+			} else if (this.getAttribute('data') == 'ShiftLeft' || this.getAttribute('data') == 'ShiftRight' && document.querySelector('body').classList.contains('initRuShift')) {
+				initRu();
+			}
+		})
+
+	})
+}
+onload = function () {
+	let keyAlt = keyControl = 0;
+	document.body.focus();
+	document.body.onkeyup = function () { keyAlt = keyControl = 0 }
+
+	document.body.onkeydown = function (e) {
+		if (e.code == 'AltLeft') keyAlt = 1;
+		else if (e.code == 'ControlLeft') keyControl = 1;
+		if (keyAlt && keyControl && document.querySelector('body').classList.contains('initRuShift')) initEnShift();
+		else if (keyAlt && keyControl && document.querySelector('body').classList.contains('initEnShift')) initRuShift();
+		else if (keyAlt && keyControl && document.querySelector('body').classList.contains('initRu')) initEn();
+		else if (keyAlt && keyControl && document.querySelector('body').classList.contains('initEn')) initRu();
+	}
+}
