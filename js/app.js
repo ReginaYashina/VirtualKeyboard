@@ -605,14 +605,14 @@ function initEn() {
   let thirdRowButtons = '';
   let fourthRowButtons = '';
   let fifthRowButtons = '';
-  for (let i = 0; i < firstRowKeys.length; i++) {
+  for (let i = 0; i < firstRowKeys.length; i += 1) {
     if (firstRowKeys[i].key === 'Backspace') {
       firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].key + '</div>';
     } else {
       firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].key + '</div>';
     }
   }
-  for (let i = 0; i < secondRowKeys.length; i++) {
+  for (let i = 0; i < secondRowKeys.length; i += 1) {
     if (secondRowKeys[i].key === 'Tab') {
       secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].key + '</div>';
     } else if (secondRowKeys[i].key === '\\') {
@@ -623,7 +623,7 @@ function initEn() {
       secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].key + '</div>';
     }
   }
-  for (let i = 0; i < thirdRowKeys.length; i++) {
+  for (let i = 0; i < thirdRowKeys.length; i += 1) {
     if (thirdRowKeys[i].key === 'CapsLock') {
       thirdRowButtons += '<div class = "key capslock-key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].key + '</div>';
     } else if (thirdRowKeys[i].key === 'Enter') {
@@ -632,7 +632,7 @@ function initEn() {
       thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].key + '</div>';
     }
   }
-  for (let i = 0; i < fourthRowKeys.length; i++) {
+  for (let i = 0; i < fourthRowKeys.length; i += 1) {
     if (fourthRowKeys[i].key === 'Shift') {
       fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].key + '</div>';
     } else if (fourthRowKeys[i].key === 'ArrowUp') {
@@ -641,7 +641,7 @@ function initEn() {
       fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].key + '</div>';
     }
   }
-  for (let i = 0; i < fifthRowKeys.length; i++) {
+  for (let i = 0; i < fifthRowKeys.length; i += 1) {
     if (fifthRowKeys[i].key === 'Control') {
       fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
     } else if (fifthRowKeys[i].key === 'Meta') {
@@ -681,14 +681,14 @@ function initEnShift() {
   let thirdRowButtons = '';
   let fourthRowButtons = '';
   let fifthRowButtons = '';
-  for (let i = 0; i < firstRowKeys.length; i++) {
+  for (let i = 0; i < firstRowKeys.length; i += 1) {
     if (firstRowKeys[i].key === 'Backspace') {
       firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyShift + '</div>';
     } else {
       firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyShift + '</div>';
     }
   }
-  for (let i = 0; i < secondRowKeys.length; i++) {
+  for (let i = 0; i < secondRowKeys.length; i += 1) {
     if (secondRowKeys[i].key === 'Tab') {
       secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyShift + '</div>';
     } else if (secondRowKeys[i].key === '\\') {
@@ -699,7 +699,7 @@ function initEnShift() {
       secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyShift + '</div>';
     }
   }
-  for (let i = 0; i < thirdRowKeys.length; i++) {
+  for (let i = 0; i < thirdRowKeys.length; i += 1) {
     if (thirdRowKeys[i].key === 'CapsLock') {
       thirdRowButtons += '<div class = "key capslock-key capslock-active" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyShift + '</div>';
     } else if (thirdRowKeys[i].key === 'Enter') {
@@ -708,7 +708,7 @@ function initEnShift() {
       thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyShift + '</div>';
     }
   }
-  for (let i = 0; i < fourthRowKeys.length; i++) {
+  for (let i = 0; i < fourthRowKeys.length; i += 1) {
     if (fourthRowKeys[i].key === 'Shift') {
       fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyShift + '</div>';
     } else if (fourthRowKeys[i].key === 'ArrowUp') {
@@ -717,7 +717,7 @@ function initEnShift() {
       fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyShift + '</div>';
     }
   }
-  for (let i = 0; i < fifthRowKeys.length; i++) {
+  for (let i = 0; i < fifthRowKeys.length; i += 1) {
     if (fifthRowKeys[i].key === 'Control') {
       fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
     } else if (fifthRowKeys[i].key === 'Meta') {
@@ -757,14 +757,14 @@ function initRu() {
   let thirdRowButtons = '';
   let fourthRowButtons = '';
   let fifthRowButtons = '';
-  for (let i = 0; i < firstRowKeys.length; i++) {
+  for (let i = 0; i < firstRowKeys.length; i += 1) {
     if (firstRowKeys[i].key === 'Backspace') {
       firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRu + '</div>';
     } else {
       firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRu + '</div>';
     }
   }
-  for (let i = 0; i < secondRowKeys.length; i++) {
+  for (let i = 0; i < secondRowKeys.length; i += 1) {
     if (secondRowKeys[i].key === 'Tab') {
       secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRu + '</div>';
     } else if (secondRowKeys[i].key === '\\') {
@@ -775,7 +775,7 @@ function initRu() {
       secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRu + '</div>';
     }
   }
-  for (let i = 0; i < thirdRowKeys.length; i++) {
+  for (let i = 0; i < thirdRowKeys.length; i += 1) {
     if (thirdRowKeys[i].key === 'CapsLock') {
       thirdRowButtons += '<div class = "key capslock-key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRu + '</div>';
     } else if (thirdRowKeys[i].key === 'Enter') {
@@ -784,7 +784,7 @@ function initRu() {
       thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRu + '</div>';
     }
   }
-  for (let i = 0; i < fourthRowKeys.length; i++) {
+  for (let i = 0; i < fourthRowKeys.length; i += 1) {
     if (fourthRowKeys[i].key === 'Shift') {
       fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRu + '</div>';
     } else if (fourthRowKeys[i].key === 'ArrowUp') {
@@ -793,7 +793,7 @@ function initRu() {
       fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRu + '</div>';
     }
   }
-  for (let i = 0; i < fifthRowKeys.length; i++) {
+  for (let i = 0; i < fifthRowKeys.length; i += 1) {
     if (fifthRowKeys[i].key === 'Control') {
       fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
     } else if (fifthRowKeys[i].key === 'Meta') {
@@ -833,14 +833,14 @@ function initRuShift() {
   let thirdRowButtons = '';
   let fourthRowButtons = '';
   let fifthRowButtons = '';
-  for (let i = 0; i < firstRowKeys.length; i++) {
+  for (let i = 0; i < firstRowKeys.length; i += 1) {
     if (firstRowKeys[i].key === 'Backspace') {
       firstRowButtons += '<div class = "key backspace-key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRuShift + '</div>';
     } else {
       firstRowButtons += '<div class = "key" data = "' + firstRowKeys[i].code + '">' + firstRowKeys[i].keyRuShift + '</div>';
     }
   }
-  for (let i = 0; i < secondRowKeys.length; i++) {
+  for (let i = 0; i < secondRowKeys.length; i += 1) {
     if (secondRowKeys[i].key === 'Tab') {
       secondRowButtons += '<div class = "key tab-key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRuShift + '</div>';
     } else if (secondRowKeys[i].key === '\\') {
@@ -851,7 +851,7 @@ function initRuShift() {
       secondRowButtons += '<div class = "key" data = "' + secondRowKeys[i].code + '">' + secondRowKeys[i].keyRuShift + '</div>';
     }
   }
-  for (let i = 0; i < thirdRowKeys.length; i++) {
+  for (let i = 0; i < thirdRowKeys.length; i += 1) {
     if (thirdRowKeys[i].key === 'CapsLock') {
       thirdRowButtons += '<div class = "key capslock-key capslock-active" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRuShift + '</div>';
     } else if (thirdRowKeys[i].key === 'Enter') {
@@ -860,7 +860,7 @@ function initRuShift() {
       thirdRowButtons += '<div class = "key" data = "' + thirdRowKeys[i].code + '">' + thirdRowKeys[i].keyRuShift + '</div>';
     }
   }
-  for (let i = 0; i < fourthRowKeys.length; i++) {
+  for (let i = 0; i < fourthRowKeys.length; i += 1) {
     if (fourthRowKeys[i].key === 'Shift') {
       fourthRowButtons += '<div class = "key shift-key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRuShift + '</div>';
     } else if (fourthRowKeys[i].key === 'ArrowUp') {
@@ -869,7 +869,7 @@ function initRuShift() {
       fourthRowButtons += '<div class = "key" data = "' + fourthRowKeys[i].code + '">' + fourthRowKeys[i].keyRuShift + '</div>';
     }
   }
-  for (let i = 0; i < fifthRowKeys.length; i++) {
+  for (let i = 0; i < fifthRowKeys.length; i += 1) {
     if (fifthRowKeys[i].key === 'Control') {
       fifthRowButtons += '<div class = "key ctrl-key" data = "' + fifthRowKeys[i].code + '">Ctrl</div>';
     } else if (fifthRowKeys[i].key === 'Meta') {
@@ -896,7 +896,6 @@ function initRuShift() {
   print();
 }
 let lang = localStorage.getItem('lang');
-console.log(lang);
 init();
 initEn();
 if (lang === 'en') {
